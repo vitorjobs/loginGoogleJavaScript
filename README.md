@@ -1,6 +1,6 @@
 # [Consumo de API - Login com com Google](http://demos.creative-tim.com/paper-kit-2) 
 
-![lOGIN COM GOOGLE](https://raw.githubusercontent.com/creativetimofficial/public-assets/master/paper-kit-2-html/opt_pk2_thumbnail.jpg "Paper Kit 2 Free")
+![lOGIN COM GOOGLE](.github/loginGoogle.png "Layout da Página")
 
 
 ## **Login com Google** 
