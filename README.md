@@ -14,6 +14,8 @@ A página utilizada no projeto foi estraida do **TEMPLATE** **[Paper Kit 2](http
   - [**Login com Google**](#login-com-google)
   - [Conteúdo](#conteúdo)
   - [Getting Started](#getting-started)
+  - [**Testar o Projeto:**](#testar-o-projeto)
+    - [Configure seu painel no Google Developer Console](#configure-seu-painel-no-google-developer-console)
   - [Estrutura de Arquivos](#estrutura-de-arquivos)
   - [:construction:  Ferramentas e Tecnologias Utilizadas no Projeto](#construction--ferramentas-e-tecnologias-utilizadas-no-projeto)
   - [Visão de Melhorias do Projeto](#visão-de-melhorias-do-projeto)
@@ -28,11 +30,23 @@ A página utilizada no projeto foi estraida do **TEMPLATE** **[Paper Kit 2](http
   *  `Nome` (UserName)
   *  `Foto de Perfil` (pricture)
 
-  Para testar o projeto, realize os seguintes passos:
-  * [**Acesso o Seguintes Link**](#).
-  * Realize o login com a conta de email do google existente.
+## **Testar o Projeto:**
+
+  ### Configure seu painel no Google Developer Console
+
+  - Baixe os arquivos deste repositório
+  - Entre no [developers console](https://console.cloud.google.com/apis/dashboard)
+  - Crie o seu projeto
+  - Clique em credenciais e depois em configurar tela de consentimento
+  - Preencha as informações na tela de consentimento, não precisa adicionar nada em URL autorizadas
+  - Volte em credenciais, crie uma nova credencial
+  - Coloque nos email de teste, o email que você quer usar para testar seu app de login
+ Coloque em URLs autorizadas a URL: http://localhost:5500 e http://localhost
+  - Salve e copie seu Cliente ID para o arquivo `googlelogin.js`
+  - Execute o projeto no seu navegador  
+  
   ```
-  Observe o preenchimento atumático das informações da conta de email utilizada para logar.**
+  Observe o preenchimento atumático das informações da conta de email utilizada para logar.
   ```
 
 
@@ -64,12 +78,10 @@ logingoogle:
   * <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>  
   * <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>  
   * <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>  
+  * <img src="https://img.shields.io/badge/bootstrap-7B42BC?style=for-the-badge&logo=bootstrap&logoColor=black"/>  
   * <img src="https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white"/>  
   * <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>  
   * <img src="https://img.shields.io/badge/Linux-7B42BC?style=for-the-badge&logo=linux&logoColor=black"/>  
-
-
-
 
 ## Visão de Melhorias do Projeto
 
